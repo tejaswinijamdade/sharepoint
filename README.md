@@ -58,8 +58,8 @@ for run webpart=?
 
 
 build=>
-**gulp bundle --ship
-gulp package-solution --ship**
+->**gulp bundle --ship**
+->**gulp package-solution --ship**
 
 > Include any additional steps as needed.
 
