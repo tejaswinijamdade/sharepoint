@@ -47,6 +47,17 @@ Short summary on functionality and used technologies.
 - in the command-line run:
   - **npm install**
   - **gulp serve**
+ 
+  - 
+
+for run webpart=?
+**gulp trust-dev-cert**
+**gulp serve**
+
+
+build=>
+**gulp bundle --ship
+gulp package-solution --ship**
 
 > Include any additional steps as needed.
 
@@ -71,3 +82,15 @@ This extension illustrates the following concepts:
 - [Use Microsoft Graph in your solution](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/using-microsoft-graph-apis)
 - [Publish SharePoint Framework applications to the Marketplace](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/publish-to-marketplace-overview)
 - [Microsoft 365 Patterns and Practices](https://aka.ms/m365pnp) - Guidance, tooling, samples and open-source controls for your Microsoft 365 development
+
+-we can create free microsoft account for run sharepoint webpart
+-  microsoft account-Link is=>
+-  https://developer.microsoft.com/en-us/microsoft-365/dev-program
+-  https://developer.microsoft.com/en-us/microsoft-365/profile
+-  test-project
+-  https://y8ysq.sharepoint.com/sites/sharepoint_ziniosedge_TestProj?sw=auth
+
+
+
+**For SETUP SHAREPOINT**
+https://learn.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-development-environment?source=recommendations
