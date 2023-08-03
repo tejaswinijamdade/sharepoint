@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "0b8caf2a-6249-49bc-a792-8568d728bc7b",
+  "alias": "ButtonWebPart",
+  "componentType": "WebPart",
+
+
+  "version": "*",
+  "manifestVersion": 2,
+
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Advanced" },
+    "title": { "default": "spfx Button" },
+    "description": { "default": "Button description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "buttonAlignment":"Left",
+      "buttonColor": "#f5f7f9",
+      "buttonTextColor": "#6b6767",
+      "addButtonText": "Enter Button Text",
+      "buttonTextWeight":"Normal",
+      "fontSize": "14px",
+      "borderRadius":"10px",
+      "borderColor":"#000",
+      "borderWidth":"1px",
+      "buttonBoxShadow":"0px 4px 4px 1px #0000004f"
+    }
+  }]
+}
